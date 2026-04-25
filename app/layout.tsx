@@ -35,6 +35,7 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   title: "Fer Taboada — Transformo Fútbol en Arte",
   description: "Arte oficial para Real Madrid, Boca Juniors, Al-Nassr y más.",
+  icons: { icon: "/favicon.ico" },
 };
 
 export default function RootLayout({
