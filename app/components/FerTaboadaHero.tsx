@@ -304,7 +304,7 @@ function Slide6SolutionOverlay({ active }: { active: boolean }) {
               </div>
               <NeonButton
                 variant="default"
-                onClick={() => window.open("https://cursos.fertaboada.com/vgp/", "_blank")}
+                onClick={() => window.open("https://vgpro.fertaboada.com", "_blank")}
                 className="card-btn w-4/5 mx-auto h-11 flex items-center justify-center border-[#ff5a00]/60 text-white bg-transparent rounded-full normal-case tracking-normal hover:bg-[#ff5a00]/10"
                 style={CARD_BUTTON_STYLE}
               >
