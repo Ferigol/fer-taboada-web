@@ -34,8 +34,11 @@ const oswald = Oswald({
 
 export const metadata: Metadata = {
   title: "Fer Taboada | Football Artist",
-  description: "Transformo fútbol en arte. Illustrations, branding y contenido visual para clubes Real Madrid, Boca Juniors y Al-Nassr.",
+  description: "Football Artist especializado en ilustración digital deportiva. He colaborado con el Real Madrid, Boca Juniors y Al-Nassr. Transformo el fútbol en arte que genera pasión y ventas.",
   icons: { icon: "/favicon.ico" },
+  openGraph: {
+    description: "Football Artist especializado en ilustración digital deportiva. He colaborado con el Real Madrid, Boca Juniors y Al-Nassr. Transformo el fútbol en arte que genera pasión y ventas.",
+  },
 };
 
 export default function RootLayout({
